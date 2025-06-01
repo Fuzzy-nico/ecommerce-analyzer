@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 st.set_page_config(page_title="Fuzzy Ecommerce Analyzer", page_icon="🔍", layout="centered")
 
 # Logo e header
-st.image("logo_fuzzy.png", width=180)
+st.image("logo_fuzzy_corretto.png", width=180)
 st.markdown("<h1 style='color:#000000;'>Fuzzy Ecommerce Analyzer</h1>", unsafe_allow_html=True)
 st.markdown("🚀 <span style='color:#555555;'>Analizza il sito e-commerce del tuo cliente in 5 secondi.</span>", unsafe_allow_html=True)
 
