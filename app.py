@@ -82,7 +82,7 @@ try:
 st.subheader("Chat assistente Fuzzy: risposte a obiezioni")
 msg = st.text_input("Scrivi l'obiezione ricevuta dal cliente")
 except Exception as e:
-    st.error(f"Errore nella sezione chat: {e}")
+        st.error(f"Errore nella sezione chat: {e}")
 if msg:
     msg = msg.lower()
     if "prezzo" in msg or "costa" in msg or "soldi" in msg:
