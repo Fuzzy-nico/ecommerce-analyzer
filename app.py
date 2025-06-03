@@ -110,7 +110,7 @@ if msg:
     else:
         risposta = "Obiezione non ancora registrata. Rispondi con empatia e cerca di riportare il focus sul valore che offriamo."
 
-    st.success(f"💬 Risposta suggerita:
+st.success(f"💬 Risposta suggerita:\n{risposta}")
 
 {risposta}")
 
