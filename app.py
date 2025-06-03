@@ -78,8 +78,8 @@ if st.button("Analizza"):
                 st.markdown(f"📢 **Pitch suggerito:** {pitch.get(servizio, 'Proponi questo servizio come primo passo concreto per far crescere le vendite.')}")
 
 # Chat: obiezioni comuni
-
-st.subheader(" Chat assistente Fuzzy: risposte a obiezioni")
+try:
+st.subheader("Chat assistente Fuzzy: risposte a obiezioni")
 msg = st.text_input("Scrivi l'obiezione ricevuta dal cliente")
 
 if msg:
