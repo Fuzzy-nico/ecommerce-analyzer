@@ -79,7 +79,7 @@ if st.button("Analizza"):
 
 # Chat: obiezioni comuni
 
-st.subheader("💬 Chat assistente Fuzzy: risposte a obiezioni")
+st.subheader(" Chat assistente Fuzzy: risposte a obiezioni")
 msg = st.text_input("Scrivi l'obiezione ricevuta dal cliente")
 
 if msg:
