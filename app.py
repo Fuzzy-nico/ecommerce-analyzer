@@ -45,7 +45,11 @@ if st.session_state['email'] is None:
     if st.button("Accedi"):
         if email and "@" in email:
             st.session_state['email'] = email
-            st.experimental_rerun()
+            # Compatibilità con versioni diverse di Streamlit
+            if hasattr(st, "experimental_rerun"):
+                st.experimental_rerun()
+            else:
+                st.rerun()
         else:
             st.error("Inserisci un indirizzo email valido.")
     st.stop()
